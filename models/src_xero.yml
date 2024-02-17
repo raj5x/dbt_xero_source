@@ -179,3 +179,5 @@ sources:
             description: Xero identifier for the credit note.
           - name: contact_id
             description: The ID of the associated contact in Xero
+     - name: journal_line_has_tracking_credit_category
+     identifier: "{{ var('xero_journal_line_has_tracking_category_identifier', 'journal_line_has_tracking_category')}}"
